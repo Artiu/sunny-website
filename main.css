@@ -106,6 +106,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  text-align: center;
 }
 
 .header__text {
@@ -119,6 +120,7 @@
   display: grid;
   -ms-grid-columns: 50% 50%;
       grid-template-columns: 50% 50%;
+      grid-template-areas: "text1 photo1";
   font-size: 18px;
 }
 
@@ -334,6 +336,11 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: center;
+  }
+  .content__link--yellow, .content__link--red {
+    margin: 0 auto;
+    margin-top: 20px;
   }
   .clients-container {
     padding: 30px;
